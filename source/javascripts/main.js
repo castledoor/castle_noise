@@ -8,7 +8,8 @@ $(document).ready(function() {
 
    $('.inner').slick({
      dots: true,
-     infinite: true
+     infinite: true,
+     draggable: false
    });
 
    //footer
