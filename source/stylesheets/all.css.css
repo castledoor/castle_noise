@@ -1,0 +1,522 @@
+/* line 1, partials/desktop/_header.sass */
+.header-image {
+  background-image: url(/images/header/main-header.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 733px;
+  height: 199px;
+  text-align: center;
+}
+
+/* line 9, partials/desktop/_header.sass */
+.open_close {
+  font-size: 18px;
+  margin-top: -45px;
+  float: right;
+  color: white;
+  display: inline;
+}
+
+/* line 16, partials/desktop/_header.sass */
+.handle-icons img {
+  float: right;
+  margin-top: -52px;
+  margin-right: 15px;
+}
+
+/* line 21, partials/desktop/_header.sass */
+.open_close p {
+  display: inline-block;
+  margin-right: 55px;
+}
+
+/* line 25, partials/desktop/_header.sass */
+.close-icon {
+  display: none;
+}
+
+/* line 28, partials/desktop/_header.sass */
+.stack {
+  margin: 0 auto;
+}
+
+/* line 31, partials/desktop/_header.sass */
+.menu-toggle {
+  padding: 1em;
+}
+
+/* line 34, partials/desktop/_header.sass */
+.explore {
+  position: absolute;
+  min-height: 414px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  z-index: 10;
+}
+
+/* line 44, partials/desktop/_header.sass */
+.explore > .explore-content {
+  margin: 0;
+  padding: 0;
+  min-height: 414px;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.15s;
+  transition: transform 0.3s;
+}
+
+/* line 54, partials/desktop/_header.sass */
+.explore.open > .explore-content {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* line 59, partials/desktop/_header.sass */
+.explore-content {
+  width: 733px;
+}
+
+/* line 1, partials/desktop/_main.sass */
+.banner-running-zoom {
+  width: 733px;
+  height: 613px;
+  font-family: "Trade Gothic Nike";
+}
+
+/* line 6, partials/desktop/_main.sass */
+ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+/* line 11, partials/desktop/_main.sass */
+a {
+  color: black;
+}
+
+/* line 14, partials/desktop/_main.sass */
+a:visited {
+  background-color: black;
+}
+
+/* line 17, partials/desktop/_main.sass */
+.shop-nike {
+  text-decoration: underline;
+  font-size: 12px;
+  margin-top: -316px;
+  color: black;
+}
+
+/* line 23, partials/desktop/_main.sass */
+.shoe-name {
+  font-size: 24px;
+  margin-top: -340px;
+}
+
+/* line 27, partials/desktop/_main.sass */
+.shoe-detail-header {
+  line-height: 5px;
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 34, partials/desktop/_main.sass */
+.shoe-detail-header p {
+  position: absolute;
+  width: 100%;
+}
+
+/* line 38, partials/desktop/_main.sass */
+.tools {
+  position: absolute;
+  opacity: 0.85;
+}
+
+/* line 42, partials/desktop/_main.sass */
+.tools:hover {
+  width: 25px;
+}
+
+/* line 45, partials/desktop/_main.sass */
+.tool-tips {
+  position: relative;
+}
+
+/* line 48, partials/desktop/_main.sass */
+.pegasus-dialog-wrapper {
+  position: relative;
+  width: 270px;
+  text-align: left;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+}
+
+/* line 55, partials/desktop/_main.sass */
+.pegasus-dialog {
+  margin-top: -269px;
+  position: absolute;
+  font-size: 12px;
+  margin-left: 38px;
+}
+/* line 61, partials/desktop/_main.sass */
+.pegasus-dialog img {
+  margin-top: 20px;
+}
+
+/* line 64, partials/desktop/_main.sass */
+.dialog {
+  margin-top: -35px;
+  margin-left: 32px;
+}
+
+/* line 68, partials/desktop/_main.sass */
+.js-hover, .pd-tool {
+  display: none;
+}
+
+/* line 71, partials/desktop/_main.sass */
+.white {
+  color: white;
+}
+
+/* line 74, partials/desktop/_main.sass */
+.plus {
+  margin-left: 4px;
+  padding-top: 4px;
+  position: absolute;
+}
+
+/* line 79, partials/desktop/_main.sass */
+.plus:hover {
+  margin-left: 0px;
+  padding-top: 0px;
+}
+
+/* line 83, partials/desktop/_main.sass */
+button.slick-prev, button.slick-next {
+  display: none !important;
+}
+
+/* line 86, partials/desktop/_main.sass */
+.slick-dots {
+  opacity: 0;
+  margin-top: -17px;
+  position: absolute;
+  z-index: 10;
+}
+/* line 92, partials/desktop/_main.sass */
+.slick-dots li {
+  display: inline-block;
+  width: 244px;
+  text-align: center;
+  padding-top: 20px;
+}
+/* line 99, partials/desktop/_main.sass */
+.slick-dots li button {
+  width: 244px;
+  opacity: 1;
+  padding-top: 21px;
+}
+
+/* line 104, partials/desktop/_main.sass */
+.slick-slider {
+  position: relative;
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 121, partials/desktop/_main.sass */
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 128, partials/desktop/_main.sass */
+.slick-list:focus {
+  outline: none;
+}
+
+/* line 131, partials/desktop/_main.sass */
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 135, partials/desktop/_main.sass */
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 144, partials/desktop/_main.sass */
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+/* line 150, partials/desktop/_main.sass */
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: "";
+}
+
+/* line 155, partials/desktop/_main.sass */
+.slick-track:after {
+  clear: both;
+}
+
+/* line 158, partials/desktop/_main.sass */
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+/* line 162, partials/desktop/_main.sass */
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+/* line 168, partials/desktop/_main.sass */
+[dir='rtl'] .slick-slide {
+  float: right;
+}
+
+/* line 172, partials/desktop/_main.sass */
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+/* line 175, partials/desktop/_main.sass */
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+/* line 178, partials/desktop/_main.sass */
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+/* line 181, partials/desktop/_main.sass */
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+/* line 184, partials/desktop/_main.sass */
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+/* line 1, partials/desktop/_pegasus.sass */
+.pegasus-hero {
+  background-image: url(/images/pegasus/pegasus_hero.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 733px;
+  height: 363px;
+  text-align: center;
+}
+
+/* line 9, partials/desktop/_pegasus.sass */
+.pegasus-tool-1 {
+  margin-top: -64px;
+  margin-left: 437px;
+}
+
+/* line 13, partials/desktop/_pegasus.sass */
+.pegasus-tool-2 {
+  margin-top: -81px;
+  margin-left: 182px;
+}
+
+/* line 17, partials/desktop/_pegasus.sass */
+.pegasus-tool-3 {
+  margin-top: -163px;
+  margin-left: 369px;
+}
+
+/* line 1, partials/desktop/_footer.sass */
+.nav-buttons {
+  width: 733px;
+}
+/* line 4, partials/desktop/_footer.sass */
+.nav-buttons li {
+  display: inline-block;
+}
+/* line 7, partials/desktop/_footer.sass */
+.nav-buttons img {
+  width: 241.3px;
+}
+
+/* line 10, partials/desktop/_footer.sass */
+.nav-words {
+  margin-top: -36px;
+}
+/* line 13, partials/desktop/_footer.sass */
+.nav-words li {
+  text-decoration: underline;
+  display: inline-block;
+  width: 241px;
+  font-size: 11px;
+  position: relative;
+  z-index: 6;
+}
+
+/* line 21, partials/desktop/_footer.sass */
+.overlay-1 {
+  width: 242px;
+  height: 43px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 2;
+  margin-top: -38px;
+  display: none;
+}
+
+/* line 30, partials/desktop/_footer.sass */
+.overlay-2 {
+  width: 242px;
+  height: 43px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 2;
+  margin-left: 245px;
+  display: none;
+}
+
+/* line 39, partials/desktop/_footer.sass */
+.overlay-3 {
+  width: 242px;
+  height: 43px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 2;
+  margin-left: 491px;
+  display: none;
+}
+
+/* line 1, partials/desktop/_elite8.sass */
+.elite8-hero {
+  background-image: url(/images/elite8/elite8_hero.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 733px;
+  height: 363px;
+  text-align: center;
+}
+
+/* line 9, partials/desktop/_elite8.sass */
+.elite8-tool-1 {
+  margin-top: -64px;
+  margin-left: 347px;
+}
+
+/* line 13, partials/desktop/_elite8.sass */
+.elite8-tool-2 {
+  margin-top: -88px;
+  margin-left: 169px;
+}
+
+/* line 17, partials/desktop/_elite8.sass */
+.elite8-tool-3 {
+  margin-top: -172px;
+  margin-left: 369px;
+}
+
+/* line 1, partials/desktop/_zoom-family.sass */
+.zoom-family-hero {
+  background-image: url(/images/zoom-family/zoom-family-hero.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 733px;
+  height: 363px;
+  text-align: center;
+}
+
+/* line 9, partials/desktop/_zoom-family.sass */
+.zoom-family-tool-1 {
+  margin-top: -122px;
+  margin-left: 495px;
+}
+
+/* line 13, partials/desktop/_zoom-family.sass */
+.zoom-family-tool-2 {
+  margin-top: -208px;
+  margin-left: 254px;
+}
+
+/* line 17, partials/desktop/_zoom-family.sass */
+.zoom-family-tool-3 {
+  margin-top: -163px;
+  padding-left: 378px;
+}
+
+/* line 21, partials/desktop/_zoom-family.sass */
+.zoom-family-tool-4 {
+  margin-top: -256px;
+  padding-left: 422px;
+}
+
+/* line 27, partials/desktop/_zoom-family.sass */
+.nzoom a {
+  color: white;
+}
+
+/* line 30, partials/desktop/_zoom-family.sass */
+.zoom-dialog {
+  margin-top: -47px;
+  position: absolute;
+  font-size: 12px;
+  margin-left: 38px;
+}
+
+/* line 36, partials/desktop/_zoom-family.sass */
+.zoom.dialog {
+  margin-top: -28px;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/fonts/HelveticaNeue_gdi.eot");
+  src: url("/fonts/HelveticaNeue_gdi.eot?#iefix") format("embedded-opentype"), url("/fonts/HelveticaNeue_gdi.woff") format("woff"), url("/fonts/HelveticaNeue_gdi.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Trade Gothic Nike";
+  src: url("/fonts/TradeGothicforNike365-BdCn_gdi.eot");
+  src: url("/fonts/TradeGothicforNike365-BdCn_gdi.eot?#iefix") format("embedded-opentype"), url("/fonts/TradeGothicforNike365-BdCn_gdi.woff") format("woff"), url("/fonts/TradeGothicforNike365-BdCn_gdi.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
