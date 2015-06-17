@@ -1,7 +1,9 @@
 $(document).ready(function() {
+  
   $('.open_close').click(function(){
     $('.explore').toggleClass('open');
     $('.open_close p, .open_close img ').toggle();
+    pegasus_click_actions();
   });
 
    $('.inner').slick({
@@ -10,19 +12,21 @@ $(document).ready(function() {
    });
 
    //footer
+function pegasus_click_actions() {
+  $('.words-elite-footer').css("opacity", "1");
+  $('.words-zoom-footer').css("opacity", "1");
+  $('.words-peg-footer').css("opacity", "0");
+  $('.overlay-2, .overlay-3').css("display", "block");
+  $('.overlay-3').css("margin-top", "-43px");
+  $('.overlay-2').css('margin-top', "-38px");
+  $('.overlay-1').css("display", "none");
+}
 
 var slider_active_1 = $('.slick-slider').children().last().children().first()
 var slider_active_2 = $('.slick-slider').children().last().children().first().next()
 var slider_active_3 = $('.slick-slider').children().last().children().first().next().next()
    $(slider_active_1).click(function() {
-    $('.words-elite-footer').css("opacity", "1");
-    $('.words-zoom-footer').css("opacity", "1");
-    $('.words-peg-footer').css("opacity", "0");
-    $('.overlay-2, .overlay-3').css("display", "block");
-    $('.overlay-3').css("margin-top", "-43px");
-    $('.overlay-2').css('margin-top', "-38px");
-    $('.overlay-1').css("display", "none");
-
+    pegasus_click_actions();
    });
 
    $(slider_active_2).click(function() {
