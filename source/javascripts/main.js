@@ -21,6 +21,7 @@ function pegasus_click_actions() {
   $('.overlay-3').css("margin-top", "-43px");
   $('.overlay-2').css('margin-top', "-38px");
   $('.overlay-1').css("display", "none");
+  $('.baby-carrot').css("margin-left", "-477px")
 }
 
 var slider_active_1 = $('.slick-slider').children().last().children().first()
@@ -37,6 +38,7 @@ var slider_active_3 = $('.slick-slider').children().last().children().first().ne
     $('.overlay-1, .overlay-3').css("display", "block");
     $('.overlay-2').css("display", "none");
     $('.overlay-3').css('margin-top', "-43px");
+    $('.baby-carrot').css("margin-left", "30px")
    });
 
    $(slider_active_3).click(function() {
@@ -46,6 +48,7 @@ var slider_active_3 = $('.slick-slider').children().last().children().first().ne
     $('.overlay-2, .overlay-1').css("display", "block");
     $('.overlay-3').css("display", "none");
     $('.overlay-2').css('margin-top', "-43px");
+    $('.baby-carrot').css("margin-left", '488px')
    });
 
 
