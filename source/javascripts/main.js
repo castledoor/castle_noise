@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  
+   pegasus_click_actions();
   $('.open_close').click(function(){
     $('.explore').toggleClass('open');
     $('.open_close p, .open_close img ').toggle();
-    pegasus_click_actions();
+   
   });
 
    $('.inner').slick({
