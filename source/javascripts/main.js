@@ -49,6 +49,7 @@ var slider_active_3 = $('.slick-slider').children().last().children().first().ne
     $('.overlay-2, .overlay-1').css("display", "block");
     $('.overlay-3').css("display", "none");
     $('.overlay-2').css('margin-top', "-43px");
+    $('.overlay-1').css('margin-top', "-34px");
     $('.baby-carrot').css("margin-left", '488px')
    });
 
