@@ -39,7 +39,7 @@ var slider_active_3 = $('.slick-slider').children().last().children().first().ne
     $('.overlay-2').css("display", "none");
     $('.overlay-3').css('margin-top', "-43px");
     $('.overlay-1').css('margin-top', "-34px");
-    $('.baby-carrot').css("margin-left", "30px")
+    $('.baby-carrot').css("margin-left", "14px")
    });
 
    $(slider_active_3).click(function() {
