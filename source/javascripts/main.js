@@ -9,7 +9,6 @@ $(document).ready(function() {
    $('.inner').slick({
      dots: true,
      infinite: true,
-     draggable: false
    });
 
    //footer
@@ -52,6 +51,7 @@ var slider_active_3 = $('.slick-slider').children().last().children().first().ne
     $('.overlay-1').css('margin-top', "-34px");
     $('.baby-carrot').css("margin-left", '488px')
    });
+
 
 
 });

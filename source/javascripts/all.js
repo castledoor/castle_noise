@@ -3,3 +3,4 @@
 //= require pegasus
 //= require main
 //= require zoom
+//= require carousel
