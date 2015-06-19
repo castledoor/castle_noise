@@ -1,22 +1,14 @@
 $(document).ready(function() {
-  $('.pegasus-tool-1').mouseenter(function() {
-    $('.pegasus-dialog-1, .pd-tool').css("display", "block");
-  });
-  $('.pegasus-tool-1').mouseleave(function() {
-    $('.pegasus-dialog-1, .pd-tool').css("display", "none");
-  });
-
-  $('.pegasus-tool-2').mouseenter(function() {
-    $('.pegasus-dialog-2, .pd-tool').css("display", "block");
-  });
-  $('.pegasus-tool-2').mouseleave(function() {
-    $('.pegasus-dialog-2, .pd-tool').css("display", "none");
-  });
-
-  $('.pegasus-tool-3').mouseenter(function() {
-    $('.pegasus-dialog-3, .pd-tool').css("display", "block");
-  });
-  $('.pegasus-tool-3').mouseleave(function() {
-    $('.pegasus-dialog-3, .pd-tool').css("display", "none");
-  });
+  $("[class^=pegasus-tool]").each(function () {
+    $(this).mouseenter(function() {
+      dialog_num = $(this).parent().children().attr('class').slice(-7).charAt(0)
+      $('.pegasus-dialog-' +dialog_num).css("display", "block");
+      $('.pd-tool').css("display", "block");
+    });
+    $(this).mouseleave(function() {
+       dialog_num = $(this).parent().children().attr('class').slice(-7).charAt(0)
+      $('.pegasus-dialog-' +dialog_num).css("display", "none");
+      $('.pd-tool').css("display", "none");
+    });
+  })
 });

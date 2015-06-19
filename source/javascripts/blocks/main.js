@@ -31,7 +31,7 @@ function pegasus_click_actions() {
   $('.overlay-3').css("margin-top", "-43px");
   $('.overlay-2').css('margin-top', "-34px");
   $('.overlay-1').css("display", "none");
-  $('.baby-carrot').css("margin-left", "-477px")
+  $('.baby-carrot').css("margin-left", "123px")
 }
 
 function elite_click_actions() {
@@ -42,7 +42,7 @@ function elite_click_actions() {
   $('.overlay-2').css("display", "none");
   $('.overlay-3').css('margin-top', "-43px");
   $('.overlay-1').css('margin-top', "-34px");
-  $('.baby-carrot').css("margin-left", "14px")
+  $('.baby-carrot').css("margin-left", "356px")
 }
 
 function zoom_click_actions() {
@@ -53,7 +53,7 @@ function zoom_click_actions() {
   $('.overlay-3').css("display", "none");
   $('.overlay-2').css('margin-top', "-43px");
   $('.overlay-1').css('margin-top', "-34px");
-  $('.baby-carrot').css("margin-left", "488px")
+  $('.baby-carrot').css("margin-left", "599px")
  
 }
 
