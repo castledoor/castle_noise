@@ -1,6 +1,6 @@
-//= require jquery
-//= require elite8
-//= require pegasus
-//= require main
-//= require zoom
-//= require carousel
+//= require_tree ./lib
+//= require_tree ./features
+//= require_tree ./blocks
+
+
+
