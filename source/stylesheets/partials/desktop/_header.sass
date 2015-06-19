@@ -16,12 +16,13 @@
 
 .handle-icons img
   float: right
-  margin-top: -52px
-  margin-right: 15px
+  margin-top: -22px
+  margin-right: 29px
 
 .open_close p
   display: inline-block
   margin-right: 55px
+  margin-bottom: 5px
 
 .close-icon 
   display: none
@@ -29,33 +30,19 @@
 .stack 
   margin: 0 auto
 
-.menu-toggle 
-  padding: 1em
-
-.explore 
-  position: absolute
-  min-height: 414px
-  left: 0
-  right: 0
-  width: 100%
-  text-align: center
-  overflow: hidden
-  z-index: 10
-
-.explore > .explore-content
-  margin: 0
-  padding: 0
-  min-height: 414px
-  -webkit-transform: translateY(-100%)
-  -ms-transform: translateY(-100%)
-  transform: translateY(-100%)
-  -webkit-transition: -webkit-transform 0.15s
-  transition: transform 0.30s
-
-.explore.open > .explore-content
-  -webkit-transform: translateY(0)
-  -ms-transform: translateY(0)
-  transform: translateY(0)
-
 .explore-content
   width: 733px
+  height: 414px
+
+.explore 
+  width: 733px
+  height: 0
+  overflow: hidden
+  -webkit-transition: height 1s ease-in-out
+  -moz-transition: height 1s ease-in-out
+  -ms-transition: height 1s ease-in-out
+  -o-transition: height 1s ease-in-out
+  transition: height 1s ease-in-out
+
+
+
