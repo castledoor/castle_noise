@@ -1,17 +1,19 @@
 ---
-title: Nike FA15 Running Zoom
+title: Castle Noise
 ---
 
-<div class="banner-running-zoom">
+<section class="main">
   <%= partial "layouts/partials/header" %>
-  <div class="explore stack caro-wrapper">
-    <div class="explore-content carousel">
-      <ul class="inner">
-        <li  class="slide active"><%= partial "layouts/partials/pegasus" %></li>
-        <li  class="slide"><%= partial "layouts/partials/elite8" %></li>
-        <li  class="slide"><%= partial "layouts/partials/zoom-family" %></li>
-      </ul>
-      <footer><%= partial "layouts/partials/footer" %></footer>
-    </div>
-  </div>
-</div>
+  <section class="main-feature">
+  <% data.artists.features.each do |feature| %>
+    <% if feature.status == 1 %>
+      <h1 class="feature-1"><%= feature.artist_1 %></h1>
+      <p><%= feature.review %></p>
+    <% end %>
+    <% if feature.status == 2 %>
+      <h2 class="feature-2"><%= feature.artist_1 %></h2>
+      <p><%= feature.review %></p>
+    <% end %>
+  <% end %>
+  </section>
+</section>

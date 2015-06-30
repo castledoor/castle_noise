@@ -1,0 +1,17 @@
+---
+features:
+- num: 1
+  anum: one
+  status: 1
+  artist_1: IM A MAIN FEATURE
+  review: "AWOLNATION’s latest anthem 'I Am' is remixed by Grammy-nominated musician Steve Aoki into a high energy track that will dominate this summer’s clubs. 'I Am' is off the Los Angeles’ band’s new album Run, out now."
+- num: 2
+  anum: two
+  status: 2
+  artist_1: IM A SUB FEATURE
+  review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
+- num: 2
+  anum: two
+  status: 2
+  artist_1: IM A SECOND SUB FEATURE
+  review: "A REVIEW "
