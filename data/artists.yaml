@@ -3,8 +3,16 @@ features:
 - num: 1
   anum: one
   status: 1
-  artist_1: IM A MAIN FEATURE
+  artist_1: Leon Bridges
   review: "AWOLNATION’s latest anthem 'I Am' is remixed by Grammy-nominated musician Steve Aoki into a high energy track that will dominate this summer’s clubs. 'I Am' is off the Los Angeles’ band’s new album Run, out now."
+  album_name: Coming Home
+  record_label: Rebull Records
+  pub_date: "June 30, 2015 8:15PM"
+  artist_quote: ""
+  author: "Jazzy"
+  rating: ""
+  track_name: Twelve Shadows
+  short_review: "its not incredibly compelling in any way, what does GGSU stand for? its hard to tell if the hockey stick is there for a little extra design twist or if it is suppose to be a letter, and if it is suppose to be a letter its hard to tell which letter... J? L?... in that case you have a logo with 5 letters."
 - num: 2
   anum: two
   status: 2
@@ -15,3 +23,4 @@ features:
   status: 2
   artist_1: IM A SECOND SUB FEATURE
   review: "A REVIEW "
+
