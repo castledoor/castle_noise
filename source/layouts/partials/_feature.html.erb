@@ -5,24 +5,24 @@
         <div class="author-band">
           <p> BY <span><%= feature.author %></span> ON <%= feature.pub_date %></p>
         </div>
-        <%= image_tag "main-feature/main-feature-standin.png", :class => "mf_hero" %>
+        <%= image_tag "#{feature.hero}", :class => "mf_hero" %>
         <div class="feature-info">
           <div class="feature-info-container">
             <div class="feature-left">
-              <%= image_tag "main-feature/album-cover.png", :class => "album-cover mfac" %>
-              <div class="find-at">
+              <%= image_tag "#{feature.album_cover}", :class => "album-cover mfac" %>
+              <div class="feature-find-at">
                 <p> FIND AT: </p>
                 <p> Insomnia | Amazon MP3 & CD </p>
               </div>
-              <div class="track-info">
-                <p class="artist-name"> <%= feature.artist_1 %> </p>
-                <p class="album-name"> <%= feature.album_name %></p>
-                <p class="record-label"><%= feature.record_label %></p>
+              <div class="feature-track-info">
+                <p class="feature-artist-name"> <%= feature.artist_1 %> </p>
+                <p class="feature-album-name"> <%= feature.album_name %></p>
+                <p class="feature-record-label"><%= feature.record_label %></p>
               </div>
             </div>
             <div class="feature-right">
               <div class="review-audio">
-                <p class="track-name"><%= feature.track_name %></p>
+                <p class="feature-track-name"><%= feature.track_name %></p>
                 <p class="short-review"><%= feature.short_review %></p>
               </div>
             </div>
