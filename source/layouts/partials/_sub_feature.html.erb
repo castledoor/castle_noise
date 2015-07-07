@@ -3,13 +3,14 @@
     <% data.artists.features.each_with_index do |feature, index| %>
       <% if feature.status == 2 %>
         <% if index % 2 != 0 %> 
-          <div class="author-band" >
-            <p> BY <span><%= feature.author %></span> ON <%= feature.pub_date %></p>
+          <div class="" >
+            
           </div>
           <div class="sub_feature-info">
             <div class="sub_feature-info-container">
-              <div class="sub_feature-left">
-                <%= image_tag "main-sub_feature/album-cover.png", :class => "album-cover mfac sub-left" %>
+              <div class="sub_feature-left sub_feature">
+                <p class="author"> BY <span><%= feature.author %></span> ON <%= feature.pub_date %></p>
+                <%= image_tag "#{feature.album_cover}", :class => "album-cover mfac sub-left" %>
                 <div class="find-at">
                   <p> FIND AT: </p>
                   <p> Insomnia | Amazon MP3 & CD </p>
@@ -20,7 +21,7 @@
                   <p class="record-label"><%= feature.record_label %></p>
                 </div>
               </div>
-              <div class="sub_feature-right">
+              <div class="">
                 <div class="review-audio">
                   <p class="track-name"><%= feature.track_name %></p>
                   <p class="short-review"><%= feature.short_review %></p>
@@ -28,15 +29,15 @@
               </div>
             </div>
           </div>
-        <% end %>
-        <% if index % 2 == 0 %>
-          <div class="author-band" >
-            <p> BY <span><%= feature.author %></span> ON <%= feature.pub_date %></p>
+        <% elsif index % 2 == 0 %>
+          <div class="" >
           </div>
           <div class="sub_feature-info">
             <div class="sub_feature-info-container">
-              <div class="sub_feature-right">
-                <%= image_tag "main-sub_feature/album-cover.png", :class => "sub-right album-cover mfac" %>
+              <div class="sub_feature-right sub_feature">
+                <p class="author"> BY <span><%= feature.author %></span> ON <%= feature.pub_date %></p>
+
+                <%= image_tag "#{feature.album_cover}", :class => "album-cover mfac sub-right" %>
                 <div class="find-at">
                   <p> FIND AT: </p>
                   <p> Insomnia | Amazon MP3 & CD </p>
@@ -47,7 +48,7 @@
                   <p class="record-label"><%= feature.record_label %></p>
                 </div>
               </div>
-              <div class="sub_feature-right">
+              <div class="">
                 <div class="review-audio">
                   <p class="track-name"><%= feature.track_name %></p>
                   <p class="short-review"><%= feature.short_review %></p>
@@ -55,6 +56,7 @@
               </div>
             </div>
           </div>
+
 
         <% end %>
       <% end %>
