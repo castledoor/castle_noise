@@ -1,0 +1,12 @@
+<div class="past_feature-wrapper">
+  <div class="past_feature-container">
+    <p> PAST FEATURES: </p>
+    <div class="past-album-covers">
+      <% data.artists.features.each_with_index do |feature, index| %>
+        <% if feature.status == 3 %>
+          <%= image_tag "#{feature.album_cover}", :class => "album-cover mfac past-album" %>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
