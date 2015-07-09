@@ -36,37 +36,86 @@ features:
 - num: 5
   anum: two
   status: 2
+  album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A SECOND SUB FEATURE
   review: "A REVIEW "
 - num: 6
   anum: two
   status: 3
+  album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A SUB FEATURE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
 - num: 7
   anum: two
   status: 3
+  album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
-  artist_1: IM A SECOND SUB FEATURE
+  artist_1: IM A SUB FEATURE
   review: "A REVIEW "
 - num: 6
   anum: two
   status: 3
+  album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A SUB FEATURE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
 - num: 7
   anum: two
   status: 3
+  album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
-  artist_1: IM A SECOND SUB FEATURE
+  artist_1: IM A  SUB FEATURE
   review: "A REVIEW "
 - num: 6
   anum: two
   status: 3
+  album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A SUB FEATURE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
+- num: 7
+  anum: two
+  status: 3
+  album_name: Coming Home
+  album_cover: "main-feature/album-cover-2.png"
+  artist_1: IM A SUB FEATURE
+  review: "A REVIEW "
+- num: 6
+  anum: two
+  status: 3
+  album_name: Coming Home
+  album_cover: "main-feature/album-cover-2.png"
+  artist_1: IM A SUB FEATURE
+  review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
+- num: 7
+  anum: two
+  status: 3
+  album_name: Coming Home
+  album_cover: "main-feature/album-cover-2.png"
+  artist_1: IM A SUB FEATURE
+  review: "A REVIEW "
+- num: 6
+  anum: two
+  status: 3
+  album_name: Coming Home
+  album_cover: "main-feature/album-cover-2.png"
+  artist_1: IM A SUB SECOND FEATURE
+  review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
+- num: 7
+  anum: two
+  status: 3
+  album_name: Coming Home
+  album_cover: "main-feature/album-cover-2.png"
+  artist_1: IM A SUB FEATURE
+  review: "A REVIEW "
+- num: 6
+  anum: two
+  status: 3
+  album_name: Coming Home
+  album_cover: "main-feature/album-cover-2.png"
+  artist_1: IM A SUB FEATURE
+  review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
+
 

@@ -1,12 +1,24 @@
 <div class="past_feature-wrapper">
   <div class="past_feature-container">
-    <p> PAST FEATURES: </p>
+    <p class="past-label"> PAST FEATURES: </p>
     <div class="past-album-covers">
-      <% data.artists.features.each_with_index do |feature, index| %>
-        <% if feature.status == 3 %>
-          <%= image_tag "#{feature.album_cover}", :class => "album-cover mfac past-album" %>
-        <% end %>
-      <% end %>
+      <div id="listitems-pagination">
+        <a id="listitems-previous" href="#"><%= image_tag "left-arrow.png", :class => "arrows left-arrow" %></a> 
+        <ul id="listitems">
+          <% data.artists.features.each_with_index do |feature, index| %>
+            <% if feature.status == 3 %>
+              <li>
+                <%= image_tag "#{feature.album_cover}", :class => "album-cover mfac past-album" %>
+                <div class="past-artists-details">
+                  <p class="past-artist"><%= feature.artist_1 %></p>
+                  <p class="past-album-name"><%= feature.album_name %></p> 
+                </div>
+              </li>
+            <% end %>
+          <% end %>
+        </ul>
+        <a id="listitems-next" href="#"><%= image_tag "right-arrow.png", :class => "arrows right-arrow" %> </a> 
+      </div>
     </div>
   </div>
 </div>

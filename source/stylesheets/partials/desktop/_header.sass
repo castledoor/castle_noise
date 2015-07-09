@@ -1,5 +1,6 @@
 .main
   background-image: url("#{$assetPath}/squairy_light.png")
+  overflow: hidden
 
 .header-wrapper
   height: 170px
@@ -28,7 +29,7 @@
     color: #5b5a5a
     outline: none
     border: none
-    
+
   ::-webkit-input-placeholder 
     padding-left: 10px
     opacity: 0.5
@@ -46,7 +47,7 @@
     opacity: 0.5
 
 .hamburger
-  margin-left: 15px
+  margin-left: -45px
   top: -75px
   position: absolute
   z-index: 2
@@ -54,10 +55,38 @@
 .triangle
   width: 0
   height: 0
-  margin-top: 0
   border-top: 100px solid #E9CD11
-  border-right: 100px solid transparent
+  border-left: 100px solid transparent
   position: relative
+  float: right
+
 
 .logo
-  margin-top: -40px
+  margin-top: 40px
+
+nav 
+  width: 400px
+  height: 100%
+  float: right
+  background-color: #E9CD11
+  margin-right: -600px
+
+
+nav ul 
+  padding: 20px 10px
+
+
+nav li 
+  margin-bottom: 10px
+
+
+nav a 
+  text-decoration: none
+  color: #FFF
+
+
+#main-content 
+  position: relative
+  float: right
+  width: 10%
+  height: 100%
