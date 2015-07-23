@@ -3,6 +3,7 @@ features:
 - num: 1
   anum: one
   status: 1
+  score: "four-castle.png"
   hero: "main-feature/main-feature-standin.png"
   album_cover: "main-feature/album-cover.png"
   artist_1: Leon Bridges
@@ -10,46 +11,82 @@ features:
   album_name: Coming Home
   record_label: Rebull Records
   pub_date: "June 30, 2015 8:15PM"
-  artist_quote: ""
-  author: "Jazzy"
-  rating: ""
+  artist_quote: "WE LOVE EXPLOSIONS!"
+  author: "Jess"
   track_name: Twelve Shadows
+  full_review: "alkjasdfa sadf sadf asdf fas fasdf asdf sadf sdf sdf sdf sdf sdf sdf sdf sdf sdfasdfsadfasdluouosanlasdfuoasjdvla  asdfiuasdofurf asdfafpi asdfoipaipow sfdsdfioipasfoiupupsdfpasdf asfsdf sfpodfgisapd  clsakdvnasdlkvhovnasliu asdasjdpioasjdf fasdfijdsa sadfasdf sadf sadfsad fsadfasdfsa df erqret ty bxvsdkfgjsdirf eqpjqe jerqkasdmv,asp pweo q/"
   short_review: "its not incredibly compelling in any way, what does GGSU stand for? its hard to tell if the hockey stick is there for a little extra design twist or if it is suppose to be a letter, and if it is suppose to be a letter its hard to tell which letter... J? L?... in that case you have a logo with 5 letters."
 - num: 2
+  track_name: Twelve Shadows
+  artist_quote: Our sound is legendary
+  author: "Jess Fiscetti"
+  pub_date: "June 30, 2015 8:15PM"
   anum: two
+  album_name: Coming Home
+  record_label: Rebull Records
   album_cover: "main-feature/album-cover.png"
   status: 2
-  artist_1: IM A SUB FEATURE
+  score: "one-castle.png"
+  rating: "main-feature/album-cover.png"
+  artist_1: ARTIST ONE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
 - num: 3
+  artist_quote: Our sound is  legendary
+  author: "Jess Fiscetti"
+  pub_date: "June 30, 2015 8:15PM"
   anum: two
+  track_name: Twelve Shadows
+  album_name: Coming Home
+  record_label: Rebull Records
+  album_cover: "main-feature/album-cover.png"
   status: 2
-  album_cover: "main-feature/album-cover.png"
-  artist_1: IM A SECOND SUB FEATURE
-  review: "A REVIEW "
-- num: 4
-  album_cover: "main-feature/album-cover.png"
+  score: "one-castle.png"
+  rating: "main-feature/album-cover.png"
+  artist_1: ARTIST ONE
+  review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
+- num: 2
+  track_name: Twelve Shadows
+  artist_quote: Our sound is legendary
+  author: "Jess Fiscetti"
+  pub_date: "June 30, 2015 8:15PM"
   anum: two
+  album_name: Coming Home
+  record_label: Rebull Records
+  album_cover: "main-feature/album-cover.png"
   status: 2
-  artist_1: IM A SUB FEATURE
+  artist_quote: Our sound is  legendary
+  score: "one-castle.png"
+  rating: "main-feature/album-cover.png"
+  artist_1: ARTIST ONE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
 - num: 5
+  artist_quote: Our sound is  legendary
+  author: "Jess Fiscetti"
+  pub_date: "June 30, 2015 8:15PM"
   anum: two
+  score: "four-castle.png"
   status: 2
+  track_name: Twelve Shadows
   album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A SECOND SUB FEATURE
   review: "A REVIEW "
 - num: 6
+  author: "Jess Fiscetti"
+  pub_date: "June 30, 2015 8:15PM"
   anum: two
   status: 3
+  score: "three-castle.png"
   album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A SUB FEATURE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
 - num: 7
+  author: "Jess Fiscetti"
+  pub_date: "June 30, 2015 8:15PM"
   anum: two
   status: 3
+  score: "three-castle.png"
   album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A SUB FEATURE
@@ -57,6 +94,7 @@ features:
 - num: 6
   anum: two
   status: 3
+  score: "two-castle.png"
   album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A SUB FEATURE
@@ -64,6 +102,7 @@ features:
 - num: 7
   anum: two
   status: 3
+  score: "one-castle.png"
   album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A  SUB FEATURE

@@ -23,11 +23,28 @@
             <div class="feature-right">
               <div class="review-audio">
                 <p class="feature-track-name"><%= feature.track_name %></p>
+                <div class="audio">
+          
+                </div>
+                <%= image_tag "#{feature.score}", :class => "rating" %>
                 <p class="short-review"><%= feature.short_review %></p>
+              </div>
+              <div class="review-controls">
+                <%= image_tag "open_arrow.png", :class => "open-arrow arrow" %>
+                <%= image_tag "close_arrow.png", :class => "close-arrow arrow" %>
+                <p class="full-review-pull"> FULL REVIEW </p>
+                <p class="full-review-pull hide-review"> HIDE REVIEW </p>
               </div>
             </div>
           </div>
         </div>
+        <div class="drop-shadow-crop">
+          <div class="full-review">
+            <div class="full-review-words">
+              <p><%= feature.full_review %></p>
+            </div>
+          </div>
+      </div>
       <% end %>
     <% end %>
   </div>

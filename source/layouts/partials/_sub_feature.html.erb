@@ -5,52 +5,88 @@
         <% if index % 2 != 0 %> 
           <div class="" >
           </div>
-          <div class="sub_feature-info">
+          <div class="sub_feature-info left-sub">
             <div class="sub_feature-info-container">
               <div class="sub_feature-left sub_feature">
-                <p class="author"> BY <span><%= feature.author %></span> ON <%= feature.pub_date %></p>
-                <%= image_tag "#{feature.album_cover}", :class => "album-cover mfac sub-left" %>
-                <div class="find-at">
-                  <p> FIND AT: </p>
-                  <p> Insomnia | Amazon MP3 & CD </p>
+                <div class="sub-feature-left-content">
+                  <%= image_tag "#{feature.album_cover}", :class => "album-cover mfac sub-left" %>
+                  <%= image_tag "#{feature.score}", :class => "rating left-rating" %>
+                  <div class="track-info">
+                    <p class="artist-name"> <%= feature.artist_1 %> </p>
+                    <p class="album-name"> <%= feature.album_name %></p>
+                    <p class="record-label"><%= feature.record_label %></p>
+                  </div>
                 </div>
-                <div class="track-info">
-                  <p class="artist-name"> <%= feature.artist_1 %> </p>
-                  <p class="album-name"> <%= feature.album_name %></p>
-                  <p class="record-label"><%= feature.record_label %></p>
+                <div class="sub-feature-middle-content">
+                  <div class="find-at">
+                    <p class="find"> FIND AT: </p>
+                    <p class="audio-source"> Insomnia | Amazon MP3 & CD </p>
+                  </div>
+                  <div class="audio">
+                    <div class="review-audio">
+                      <p class="track-name"><%= feature.track_name %></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="sub-feature-right-content">
+                  <div class="review-credits">
+                    <p class="author"> By <span><%= feature.author %></span> on <%= feature.pub_date %></p>
+                  </div>
+                  <div class="artist-quote">
+                    <p><span>" &#32;</span><%= feature.artist_quote %><span>&#32; "</span></p>
+                  </div>
+                  <div class="sub-review-controls">
+                    <%= image_tag "open_arrow.png", :class => "open-arrow arrow" %>
+                    <%= image_tag "close_arrow.png", :class => "close-arrow arrow" %>
+                    <p class="full-review-pull"> FULL REVIEW </p>
+                    <p class="full-review-pull hide-review"> HIDE REVIEW </p>
+                  </div>
                 </div>
               </div>
-              <div class="">
-                <div class="review-audio">
-                  <p class="track-name"><%= feature.track_name %></p>
-                  <p class="short-review"><%= feature.short_review %></p>
-                </div>
-              </div>
+              
             </div>
           </div>
+
+
         <% elsif index % 2 == 0 %>
           <div class="" >
           </div>
-          <div class="sub_feature-info">
+          <div class="sub_feature-info right-sub">
             <div class="sub_feature-info-container">
               <div class="sub_feature-right sub_feature">
-                <p class="author"> BY <span><%= feature.author %></span> ON <%= feature.pub_date %></p>
-
-                <%= image_tag "#{feature.album_cover}", :class => "album-cover mfac sub-right" %>
-                <div class="find-at">
-                  <p> FIND AT: </p>
-                  <p> Insomnia | Amazon MP3 & CD </p>
+                <div class="sub-feature-right-content">
+                  <%= image_tag "#{feature.album_cover}", :class => "album-cover mfac sub-right" %>
+                  <%= image_tag "#{feature.score}", :class => "rating right-rating" %>
+                  <div class="track-info">
+                    <p class="artist-name"> <%= feature.artist_1 %> </p>
+                    <p class="album-name"> <%= feature.album_name %></p>
+                    <p class="record-label"><%= feature.record_label %></p>
+                  </div>
                 </div>
-                <div class="track-info">
-                  <p class="artist-name"> <%= feature.artist_1 %> </p>
-                  <p class="album-name"> <%= feature.album_name %></p>
-                  <p class="record-label"><%= feature.record_label %></p>
+                <div class="sub-feature-middle-content">
+                  <div class="find-at">
+                    <p class="find"> FIND AT: </p>
+                    <p class="audio-source"> Insomnia | Amazon MP3 & CD </p>
+                  </div>
+                  <div class="audio">
+                    <div class="review-audio">
+                      <p class="track-name"><%= feature.track_name %></p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="">
-                <div class="review-audio">
-                  <p class="track-name"><%= feature.track_name %></p>
-                  <p class="short-review"><%= feature.short_review %></p>
+                <div class="sub-feature-left-content">
+                  <div class="review-credits">
+                    <p class="author"> By <span><%= feature.author %></span> on <%= feature.pub_date %></p>
+                  </div>
+                  <div class="artist-quote">
+                    <p><span>" &#32;</span><%= feature.artist_quote %><span>&#32; "</span></p>
+                  </div>
+                  <div class="sub-review-controls">
+                    <%= image_tag "open_arrow.png", :class => "open-arrow arrow" %>
+                    <%= image_tag "close_arrow.png", :class => "close-arrow arrow" %>
+                    <p class="full-review-pull"> FULL REVIEW </p>
+                    <p class="full-review-pull hide-review"> HIDE REVIEW </p>
+                  </div>
                 </div>
               </div>
             </div>
