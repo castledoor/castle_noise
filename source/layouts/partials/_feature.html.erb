@@ -32,8 +32,10 @@
               <div class="review-controls">
                 <%= image_tag "open_arrow.png", :class => "open-arrow arrow" %>
                 <%= image_tag "close_arrow.png", :class => "close-arrow arrow" %>
-                <p class="full-review-pull"> FULL REVIEW </p>
-                <p class="full-review-pull hide-review"> HIDE REVIEW </p>
+                <div class="review-pull-container">
+                  <p class="full-review-pull"> FULL REVIEW </p>
+                  <p class="full-review-pull hide-review"> HIDE REVIEW </p>
+                </div>
               </div>
             </div>
           </div>
@@ -44,7 +46,7 @@
               <p><%= feature.full_review %></p>
             </div>
           </div>
-      </div>
+        </div>
       <% end %>
     <% end %>
   </div>

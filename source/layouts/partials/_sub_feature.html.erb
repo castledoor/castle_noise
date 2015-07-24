@@ -38,15 +38,19 @@
                   <div class="sub-review-controls">
                     <%= image_tag "open_arrow.png", :class => "open-arrow arrow" %>
                     <%= image_tag "close_arrow.png", :class => "close-arrow arrow" %>
-                    <p class="full-review-pull"> FULL REVIEW </p>
-                    <p class="full-review-pull hide-review"> HIDE REVIEW </p>
+                    <div class="review-pull-container">
+                      <p class="full-review-pull a"> FULL REVIEW </p>
+                      <p class="full-review-pull hide-review a"> HIDE REVIEW </p>
+                    </div>
                   </div>
                 </div>
+                
               </div>
-              
             </div>
           </div>
-
+          <div class="left-sub-review full-sub-review">
+            <p><%= feature.review %></p>
+          </div>
 
         <% elsif index % 2 == 0 %>
           <div class="" >
@@ -84,12 +88,17 @@
                   <div class="sub-review-controls">
                     <%= image_tag "open_arrow.png", :class => "open-arrow arrow" %>
                     <%= image_tag "close_arrow.png", :class => "close-arrow arrow" %>
-                    <p class="full-review-pull"> FULL REVIEW </p>
-                    <p class="full-review-pull hide-review"> HIDE REVIEW </p>
+                    <div class="review-pull-container">
+                      <p class="full-review-pull b"> FULL REVIEW </p>
+                      <p class="full-review-pull hide-review b"> HIDE REVIEW </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="right-sub-review full-sub-review">
+            <p><%= feature.review %></p>
           </div>
         <% end %>
       <% end %>
