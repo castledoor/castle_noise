@@ -10,7 +10,9 @@
 
   $(".review-pull-container").click(function() {
     var full_review = $(this).parent().parent().parent().parent().next().children()
-    $('.full-review').not(full_review).slideUp();
+    if($('.full_review') != full_review ){
+      $('.full-review').not(full_review).slideUp();
+    }
     $(full_review).slideToggle();
     $(this).children().toggle();
     $(this).parent().first().children().siblings().next('.arrow').toggle();
@@ -25,11 +27,14 @@
 
   });
 
-  // $('.b').click(function() {
-  //   var sub_full_review_right = $(this).parents().parents().parents().next().first()
-  //   $(sub_full_review_right).slideToggle();
+  $('#listitems li').mouseover(function() {
+    $(this).children().siblings().next().next().show();
+  });
 
-  // })
+  $('#listitems li').mouseleave(function() {
+    $(this).children().siblings().next().next().hide();
+  });
+
 });
 
 
