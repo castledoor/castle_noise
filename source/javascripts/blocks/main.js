@@ -10,6 +10,7 @@
 
   $(".review-pull-container").click(function() {
     var full_review = $(this).parent().parent().parent().parent().next().children()
+    $('.full-review').not(full_review).slideUp();
     $(full_review).slideToggle();
     $(this).children().toggle();
     $(this).parent().first().children().siblings().next('.arrow').toggle();
@@ -18,7 +19,10 @@
 
   $('.a, .b').click(function() {
     var sub_full_review_left = $(this).parents().parents().parents().next().first()
+    $('.full-sub-review').not(sub_full_review_left).slideUp();
+    $('.full-review').slideUp();
     $(sub_full_review_left).slideToggle();
+
   });
 
   // $('.b').click(function() {
