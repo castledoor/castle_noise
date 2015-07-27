@@ -13,9 +13,45 @@
                   <p class="past-artist"><%= feature.artist_1 %></p>
                   <p class="past-album-name"><%= feature.album_name %></p> 
                 </div>
-                <div class="info-hover">
-                  asdfsdf
-                </div>
+                <% if index % 5 == 4 || index % 5 == 3 %>
+                  <div class="info-hover-last">
+                    <div class="last-two-past">
+                      <%= image_tag "past_right_arrow.png", :class => "past-left-arrow" %>
+                      <div class="info-hover-content">
+                        <div class="author-banner">
+                          <p> BY <span><%= feature.author %></span> ON <%= feature.pub_date %></p>
+                        </div>
+                        <%= image_tag "#{feature.score}", :class => "past-rating" %>
+                        <p class="album-name"> <%= feature.track_name %></p>
+                        <p class="record-label"><%= feature.record_label %></p>
+                        <div class="past-review-container">
+                          <p class="past-review">
+                            <%= feature.review %>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <% else %>
+                  <div class="info-hover-first">
+                    <div class="first-three-past">
+                      <%= image_tag "past_left_arrow.png", :class => "past-left-arrow" %>
+                      <div class="info-hover-content">
+                        <div class="author-banner">
+                          <p> BY <span><%= feature.author %></span> ON <%= feature.pub_date %></p>
+                        </div>
+                        <%= image_tag "#{feature.score}", :class => "past-rating" %>
+                        <p class="album-name"> <%= feature.track_name %></p>
+                        <p class="record-label"><%= feature.record_label %></p>
+                        <div class="past-review-container">
+                          <p class="past-review">
+                            <%= feature.review %>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <% end %>
               </li>
             <% end %>
           <% end %>

@@ -45,7 +45,7 @@ features:
   rating: "main-feature/album-cover.png"
   artist_1: ARTIST ONE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
-- num: 2
+- num: 4
   track_name: Twelve Shadows
   artist_quote: Our sound is legendary
   author: "Jess Fiscetti"
@@ -61,26 +61,34 @@ features:
   artist_1: ARTIST ONE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
 - num: 5
-  artist_quote: Our sound is  legendary
-  author: "Jess Fiscetti"
-  pub_date: "June 30, 2015 8:15PM"
-  anum: two
-  score: "four-castle.png"
-  status: 2
   track_name: Twelve Shadows
-  album_name: Coming Home
-  album_cover: "main-feature/album-cover.png"
-  artist_1: IM A SECOND SUB FEATURE
-  review: "A REVIEW "
-- num: 6
+  artist_quote: Our sound is legendary
   author: "Jess Fiscetti"
   pub_date: "June 30, 2015 8:15PM"
   anum: two
-  status: 3
-  score: "three-castle.png"
   album_name: Coming Home
+  record_label: Rebull Records
   album_cover: "main-feature/album-cover.png"
-  artist_1: IM A SUB FEATURE
+  status: 2
+  artist_quote: Our sound is  legendary
+  score: "one-castle.png"
+  rating: "main-feature/album-cover.png"
+  artist_1: ARTIST ONE
+  review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
+- num: 6
+  track_name: Twelve Shadows
+  artist_quote: Our sound is legendary
+  author: "Jess Fiscetti"
+  pub_date: "June 30, 2015 8:15PM"
+  anum: two
+  album_name: Coming Home
+  record_label: Rebull Records
+  album_cover: "main-feature/album-cover.png"
+  status: 3
+  artist_quote: Our sound is  legendary
+  score: "one-castle.png"
+  rating: "main-feature/album-cover.png"
+  artist_1: ARTIST ONE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
 - num: 7
   author: "Jess Fiscetti"
@@ -91,8 +99,8 @@ features:
   album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A SUB FEATURE
-  review: "A REVIEW "
-- num: 6
+  review: "A REVIEW HSDFHFG LKJJ L LKJLJLDFJGLDFJGLDFG DFG DFGD GDFG DGDFG DGDSFGDFSGDFGSDFGSD  D RGDFG DFGDFGDFGDSFGSDFG DSFGDSGSDGSDFGDFGDFSGD DFGDFGDSFGSDFGSDFG DGFSGSDFGDFGDFSGDFGDS GDFG DSFGD GSD FGSDGDSFG DFGDFG DFGDSF GDSFGSDFG SDFGSFGSGSDGSGS DFGSDFG DFGDFSGSDGDSFGDSGFS SDFG SDFGDFG SDFG SDG GDSFGSDFG SDFGSFGSGSDGSGS DFGSDFG DFGDFSGSDGDSFGDSGFS SDFG SDFGDFG SDFG SDG GDSFGSDFG SDFGSFGSGSDGSGS DFGSDFG DFGDFSGSDGDSFGDSGFS SDFG SDFGDFG SDFG SDG GDSFGSDFG SDFGSFGSGSDGSGS DFGSDFG DFGDFSGSDGDSFGDSGFS SDFG SDFGDFG SDFG SDG GDSFGSDFG SDFGSFGSGSDGSGS DFGSDFG DFGDFSGSDGDSFGDSGFS SDFG SDFGDFG SDFG SDG GDSFGSDFG SDFGSFGSGSDGSGS DFGSDFG DFGDFSGSDGDSFGDSGFS SDFG SDFGDFG SDFG SDG GDSFGSDFG SDFGSFGSGSDGSGS DFGSDFG DFGDFSGSDGDSFGDSGFS SDFG SDFGDFG SDFG SDG GDSFGSDFG SDFGSFGSGSDGSGS DFGSDFG DFGDFSGSDGDSFGDSGFS SDFG SDFGDFG SDFG SDG GDSFGSDFG SDFGSFGSGSDGSGS DFGSDFG DFGDFSGSDGDSFGDSGFS SDFG SDFGDFG SDFG SDG  "
+- num: 8
   anum: two
   status: 3
   score: "two-castle.png"
@@ -100,7 +108,7 @@ features:
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A SUB FEATURE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
-- num: 7
+- num: 8
   anum: two
   status: 3
   score: "one-castle.png"
@@ -108,54 +116,78 @@ features:
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A  SUB FEATURE
   review: "A REVIEW "
-- num: 6
+- num: 7
   anum: two
   status: 3
+  track_name: Twelve Shadows
+  artist_quote: Our sound is legendary
+  author: "Jess Fiscetti"
+  pub_date: "June 30, 2015 8:15PM"
   album_name: Coming Home
   album_cover: "main-feature/album-cover.png"
   artist_1: IM A SUB FEATURE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
-- num: 7
+- num: 8
   anum: two
   status: 3
+  track_name: Twelve Shadows
+  artist_quote: Our sound is legendary
+  author: "Jess Fiscetti"
+  pub_date: "June 30, 2015 8:15PM"
   album_name: Coming Home
   album_cover: "main-feature/album-cover-2.png"
   artist_1: IM A SUB FEATURE
   review: "A REVIEW "
-- num: 6
+- num: 9
   anum: two
   status: 3
   album_name: Coming Home
   album_cover: "main-feature/album-cover-2.png"
   artist_1: IM A SUB FEATURE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
-- num: 7
+- num: 10
   anum: two
   status: 3
   album_name: Coming Home
   album_cover: "main-feature/album-cover-2.png"
   artist_1: IM A SUB FEATURE
   review: "A REVIEW "
-- num: 6
+- num: 11
   anum: two
   status: 3
   album_name: Coming Home
   album_cover: "main-feature/album-cover-2.png"
   artist_1: IM A SUB SECOND FEATURE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
-- num: 7
+- num: 12
+  track_name: Twelve Shadows
+  artist_quote: Our sound is legendary
+  author: "Jess Fiscetti"
+  pub_date: "June 30, 2015 8:15PM"
   anum: two
-  status: 3
   album_name: Coming Home
-  album_cover: "main-feature/album-cover-2.png"
-  artist_1: IM A SUB FEATURE
-  review: "A REVIEW "
-- num: 6
+  record_label: Rebull Records
+  album_cover: "main-feature/album-cover.png"
+  status: 3
+  artist_quote: Our sound is  legendary
+  score: "one-castle.png"
+  rating: "main-feature/album-cover.png"
+  artist_1: ARTIST ONE
+  review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
+- num: 13
+  track_name: Twelve Shadows
+  artist_quote: Our sound is legendary
+  author: "Jess Fiscetti"
+  pub_date: "June 30, 2015 8:15PM"
   anum: two
-  status: 3
   album_name: Coming Home
-  album_cover: "main-feature/album-cover-2.png"
-  artist_1: IM A SUB FEATURE
+  record_label: Rebull Records
+  album_cover: "main-feature/album-cover.png"
+  status: 3
+  artist_quote: Our sound is  legendary
+  score: "one-castle.png"
+  rating: "main-feature/album-cover.png"
+  artist_1: ARTIST ONE
   review: "Baby Baby's new single 'Quarter Life Crisis' is a catchy, fun-rock dance song that incorporates lead singer/guitarist Fontez Brooks' energetic vocals and the group's pop/punk vibe. "
 
 
